@@ -1,0 +1,41 @@
+name: Convert CSVs to XLSX
+
+on:
+  push:
+    paths:
+      - 'data/**'
+      - 'scripts/**'
+      - '.github/workflows/convert-csv-to-xlsx.yaml'
+  workflow_dispatch: {}
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install pandas openpyxl
+
+      - name: Run CSV -> XLSX converter
+        run: |
+          python scripts/csvs_to_xlsx.py
+
+      - name: Commit generated XLSX
+        uses: EndBug/add-and-commit@v9
+        with:
+          author_name: 'tesla-ES assistant'
+          author_email: '50111779+tesla-ES@users.noreply.github.com'
+          message: 'Add generated can_repos_real.xlsx'
+          add: 'can_repos_real.xlsx'
+          signoff: false
