@@ -1,0 +1,6 @@
+full_name,html_url,description,owner,owner_url,stargazers_count,language,created_at,pushed_at,license,topics,open_issues_count
+rnd-ash/OpenVehicleDiag,https://github.com/rnd-ash/OpenVehicleDiag,"Rust based cross-platform ECU diagnostics and car hacking application",rnd-ash,https://github.com/rnd-ash,976,Rust,2020-10-06,2025-07-25T16:43:34Z,GPL-3.0,diagnostics;uds,
+openxc/uds-c,https://github.com/openxc/uds-c,"UDS and OBD-II C Library",openxc,https://github.com/openxc,817,C,2013-12-30,2021-08-16T20:03:43Z,BSD-3-Clause,uds;obd,
+zombieCraig/uds-server,https://github.com/zombieCraig/uds-server,"CAN UDS Simulator and Fuzzer",zombieCraig,https://github.com/zombieCraig,351,C,2015-09-26,2025-10-08T14:53:49Z,GPL-2.0,uds;fuzzer,
+devcoons/iso15765-canbus,https://github.com/devcoons/iso15765-canbus,"Implementation of ISO15765-2 in C",devcoons,https://github.com/devcoons,192,C,2020-07-05,2024-12-11T08:47:53Z,AGPL-3.0,iso-tp;uds,
+Barracuda09/PyPSADiag,https://github.com/Barracuda09/PyPSADiag,"Python app for sending diagnostic frames over CAN to PSA/Stellantis",Barracuda09,https://github.com/Barracuda09,86,Python,2024-10-10,2026-06-12T07:43:56Z,GPL-2.0,diagnostics;psa,

@@ -1,0 +1,6 @@
+full_name,html_url,description,owner,owner_url,stargazers_count,language,created_at,pushed_at,license,topics,open_issues_count
+Seeed-Studio/Seeed_Arduino_CAN,https://github.com/Seeed-Studio/Seeed_Arduino_CAN,"Seeed Arduino CAN-BUS library - MCP2518FD & MCP2515 & MCP2551",Seeed-Studio,https://github.com/Seeed-Studio,918,C++,2014-01-02,2026-05-26T03:32:41Z,MIT,can-bus;arduino,
+KevinOConnor/can2040,https://github.com/KevinOConnor/can2040,"Software CAN bus implementation for rp2040 micro-controllers",KevinOConnor,https://github.com/KevinOConnor,850,C,2022-06-02,2026-03-29T15:35:42Z,GPL-3.0,embedded;rp2040,
+collin80/ESP32RET,https://github.com/collin80/ESP32RET,"CAN Reverse engineering tool for ESP32 based boards",collin80,https://github.com/collin80,386,C++,2018-03-27,2026-01-15T02:51:55Z,MIT,esp32;reverse-engineering,
+dedalqq/esp32-mcp2515,https://github.com/dedalqq/esp32-mcp2515,"MCP2515 CAN interface library for esp32/esp8266",dedalqq,https://github.com/dedalqq,73,C++,2021-04-01,2021-04-01T22:27:00Z,MIT,mcp2515;esp32,
+nopnop2002/esp-idf-can2http,https://github.com/nopnop2002/esp-idf-can2http,"CANbus to http bridge using esp32",nopnop2002,https://github.com/nopnop2002,48,C,2021-06-29,2026-06-08T23:37:52Z,MIT,bridge;esp32,
