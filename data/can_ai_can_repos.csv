@@ -1,0 +1,20 @@
+full_name,html_url,description,stargazers_count,language,notes
+Sherin-SEF-AI/CanLab,https://github.com/Sherin-SEF-AI/CanLab,"CanLab — AI-Powered CAN Bus Reverse Engineering Workstation",66,Python,AI-focused reverse-engineering workstation (already in repo)
+brent-stone/CAN_Reverse_Engineering,https://github.com/brent-stone/CAN_Reverse_Engineering,"Automated Payload Reverse Engineering Pipeline for CAN protocol",,Python,Payload reverse-engineering pipeline
+jupadhya1/Can-Bus-Reverse-Engineering-Pipeline,https://github.com/jupadhya1/Can-Bus-Reverse-Engineering-Pipeline,"Can Bus Reverse Engineering using Temporal Sequence Model",,Python,Sequence-model approach to reverse engineering
+Dalianul/can-ids,https://github.com/Dalianul/can-ids,"Machine Learning-based intrusion detection on the automotive CAN bus",0,Python,University project for CAN IDS
+aeternabilis/can-intrusion-detection-agent,https://github.com/aeternabilis/can-intrusion-detection-agent,"Agent monitors CAN traffic for intrusions using ML",0,Python,ML agent for CAN IDS
+Shrihari-I-B/automotive-can-bus-ml-ids-guardian,https://github.com/Shrihari-I-B/automotive-can-bus-ml-ids-guardian,"Real-Time IDS using Hybrid ML (Autoencoder + 1‑class SVM)",0,Python,Hybrid anomaly detection + dashboard
+Naveenreddy73/AI-Powered-IDS-for-CAN-networks,https://github.com/Naveenreddy73/AI-Powered-IDS-for-CAN-networks,"AI-based Intrusion Detection System for vehicle CAN networks",1,Python,Detect/classify CAN attacks
+Cobr3x/weepingCAN-ml-attack,https://github.com/Cobr3x/weepingCAN-ml-attack,"WeepingCAN: ML-driven adaptive attack experiments",0,Python,ML to adapt attacks to CAN state (research)
+mightt/Vehicle-Maneuver-Detection-Using-Time-Series-Subsequence-Clustering,https://github.com/mightt/Vehicle-Maneuver-Detection-Using-Time-Series-Subsequence-Clustering,"Unsupervised pipeline to detect/classify maneuvers from CAN time-series",0,Python,Unsupervised maneuver detection
+sececter/CAN-control,https://github.com/sececter/CAN-control,"Machine Learning scripts for automotive Intrusion Detection Systems (IDS)",6,Python,ML scripts for CAN IDS
+HiteshPranav267/carhackingids,https://github.com/HiteshPranav267/carhackingids,"ML-based Intrusion Detection System for CAN bus networks",1,Python,Research/educational IDS project
+cantools/cantools,https://github.com/cantools/cantools,"CAN bus tools (DBC parsing, encoding/decoding)",,Python,Core DBC/CAN utilities (library)
+commaai/opendbc,https://github.com/commaai/opendbc,"open DBC files / car signal definitions",3200,Python,Extensive DBC definitions (vehicle signal database)
+ebroecker/canmatrix,https://github.com/ebroecker/canmatrix,"Convert between CAN database formats (.dbc,.arxml,.kcd,...)",,Python,DBC conversion & manipulation
+HongleiHuang-amd/dbc2excel,https://github.com/HongleiHuang-amd/dbc2excel,"CAN DBC → Excel converter (GUI)",,Python,DBC to spreadsheet tool
+CSS-Electronics/canedge-influxdb-writer,https://github.com/CSS-Electronics/canedge-influxdb-writer,"Write decoded CAN data to InfluxDB (dashboard pipelines)",,Python,Integration for storage/visualization
+brent-stone/CAN_Reverse_Engineering,https://github.com/brent-stone/CAN_Reverse_Engineering,"Automated Payload Reverse Engineering Pipeline for CAN protocol (duplicate entry)",,Python,see above
+philipkocanda/ioniq-can,https://github.com/philipkocanda/ioniq-can,"Ioniq EV CAN reverse-engineering (model-specific)",,Python,Vehicle-specific reverse engineering
+Waqas56jb/ECU-Reverse-Flasher,https://github.com/Waqas56jb/ECU-Reverse-Flasher,"ECU firmware flashing over CAN — reverse engineering",,Python,ECU flashing/reverse tools

@@ -1,0 +1,4 @@
+full_name,html_url,description,owner,owner_url,stargazers_count,language,created_at,pushed_at,license,topics,open_issues_count
+ecubus/EcuBus-Pro,https://github.com/ecubus/EcuBus-Pro,"Automotive ECU development tool (UDS, CAN-TP, DOIP, LIN, HIL)",ecubus,https://github.com/ecubus,801,C++,2020-02-10,2026-06-14T13:49:53Z,Apache-2.0,ecu;uds;dbc,
+adamtheone/canDrive,https://github.com/adamtheone/canDrive,"Tools for hacking your car",adamtheone,https://github.com/adamtheone,668,C,2020-10-13,2023-05-27T15:45:54Z,MIT,car-hacking,
+nberlette/canbus,https://github.com/nberlette/canbus,"Controller Area Network reference, wiki, and DBC files",nberlette,https://github.com/nberlette,155,,2021-06-03,2025-07-22T09:49:52Z,MIT,dbc;reference,
