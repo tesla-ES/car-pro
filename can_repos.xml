@@ -1,0 +1,456 @@
+<?xml version="1.0"?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <Author>tesla-ES assistant</Author>
+  <Created><?xml-stylesheet?>2026-06-14T00:00:00Z</Created>
+  <Version>16.00</Version>
+ </DocumentProperties>
+ <Styles>
+  <Style ss:ID="sHeader">
+   <Font ss:Bold="1"/>
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+  </Style>
+  <Style ss:ID="sNormal">
+   <Alignment ss:Vertical="Center"/>
+  </Style>
+ </Styles>
+
+ <!-- Helper function: columns: full_name, html_url, description, owner, owner_url, stargazers_count, language, created_at, pushed_at -->
+
+ <Worksheet ss:Name="DBC & DBC parsers">
+  <Table>
+   <Row>
+    <Cell ss:StyleID="sHeader"><Data ss:Type="String">full_name</Data></Cell>
+    <Cell ss:StyleID="sHeader"><Data ss:Type="String">html_url</Data></Cell>
+    <Cell ss:StyleID="sHeader"><Data ss:Type="String">description</Data></Cell>
+    <Cell ss:StyleID="sHeader"><Data ss:Type="String">owner</Data></Cell>
+    <Cell ss:StyleID="sHeader"><Data ss:Type="String">owner_url</Data></Cell>
+    <Cell ss:StyleID="sHeader"><Data ss:Type="String">stargazers_count</Data></Cell>
+    <Cell ss:StyleID="sHeader"><Data ss:Type="String">language</Data></Cell>
+    <Cell ss:StyleID="sHeader"><Data ss:Type="String">created_at</Data></Cell>
+    <Cell ss:StyleID="sHeader"><Data ss:Type="String">pushed_at</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">commaai/opendbc</Data></Cell>
+    <Cell><Data ss:Type="String">https://github.com/commaai/opendbc</Data></Cell>
+    <Cell><Data ss:Type="String">open DBC files / car signal definitions</Data></Cell>
+    <Cell><Data ss:Type="String">commaai</Data></Cell>
+    <Cell><Data ss:Type="String">https://github.com/commaai</Data></Cell>
+    <Cell><Data ss:Type="Number">3200</Data></Cell>
+    <Cell><Data ss:Type="String">Python</Data></Cell>
+    <Cell><Data ss:Type="String">2017-05-31</Data></Cell>
+    <Cell><Data ss:Type="String">2026-06-13T09:10:24Z</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">christoph2/pydbc</Data></Cell>
+    <Cell><Data ss:Type="String">https://github.com/christoph2/pydbc</Data></Cell>
+    <Cell><Data ss:Type="String">Process vehicle network descriptions (.dbc)</Data></Cell>
+    <Cell><Data ss:Type="String">christoph2</Data></Cell>
+    <Cell><Data ss:Type="String">https://github.com/christoph2</Data></Cell>
+    <Cell><Data ss:Type="Number">39</Data></Cell>
+    <Cell><Data ss:Type="String">Python</Data></Cell>
+    <Cell><Data ss:Type="String">2018-07-09</Data></Cell>
+    <Cell><Data ss:Type="String">2026-05-20T01:33:08Z</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">HongleiHuang-amd/dbc2excel</Data></Cell>
+    <Cell><Data ss:Type="String">https://github.com/HongleiHuang-amd/dbc2excel</Data></Cell>
+    <Cell><Data ss:Type="String">A CAN bus DBC to Excel converter tool with GUI.</Data></Cell>
+    <Cell><Data ss:Type="String">HongleiHuang-amd</Data></Cell>
+    <Cell><Data ss:Type="String">https://github.com/HongleiHuang-amd</Data></Cell>
+    <Cell><Data ss:Type="Number">143</Data></Cell>
+    <Cell><Data ss:Type="String">Python</Data></Cell>
+    <Cell><Data ss:Type="String">2018-05-24</Data></Cell>
+    <Cell><Data ss:Type="String">2025-11-13T05:04:24Z</Data></Cell>
+   </Row>
+  </Table>
+ </Worksheet>
+
+ <Worksheet ss:Name="CAN tools & analyzers">
+  <Table>
+   <Row>
+    <Cell ss:StyleID="sHeader"><Data ss:Type="String">full_name</Data></Cell>
+    <Cell ss:StyleID="sHeader"><Data ss:Type="String">html_url</Data></Cell>
+    <Cell ss:StyleID="sHeader"><Data ss:Type="String">description</Data></Cell>
+    <Cell ss:StyleID="sHeader"><Data ss:Type="String">owner</Data></Cell>
+    <Cell ss:StyleID="sHeader"><Data ss:Type="String">owner_url</Data></Cell>
+    <Cell ss:StyleID="sHeader"><Data ss:Type="String">stargazers_count</Data></Cell>
+    <Cell ss:StyleID="sHeader"><Data ss:Type="String">language</Data></Cell>
+    <Cell ss:StyleID="sHeader"><Data ss:Type="String">created_at</Data></Cell>
+    <Cell ss:StyleID="sHeader"><Data ss:Type="String">pushed_at</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">iDoka/awesome-canbus</Data></Cell>
+    <Cell><Data ss:Type="String">https://github.com/iDoka/awesome-canbus</Data></Cell>
+    <Cell><Data ss:Type="String">Awesome CAN bus tools, hardware and resources</Data></Cell>
+    <Cell><Data ss:Type="String">iDoka</Data></Cell>
+    <Cell><Data ss:Type="String">https://github.com/iDoka</Data></Cell>
+    <Cell><Data ss:Type="Number">3271</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">2020-11-16</Data></Cell>
+    <Cell><Data ss:Type="String">2026-06-10T09:50:37Z</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">hardbyte/python-can</Data></Cell>
+    <Cell><Data ss:Type="String">https://github.com/hardbyte/python-can</Data></Cell>
+    <Cell><Data ss:Type="String">The can package provides controller area network support for Python developers</Data></Cell>
+    <Cell><Data ss:Type="String">hardbyte</Data></Cell>
+    <Cell><Data ss:Type="String">https://github.com/hardbyte</Data></Cell>
+    <Cell><Data ss:Type="Number">1562</Data></Cell>
+    <Cell><Data ss:Type="String">Python</Data></Cell>
+    <Cell><Data ss:Type="String">2016-09-24</Data></Cell>
+    <Cell><Data ss:Type="String">2026-06-06T10:53:53Z</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">amund7/CANBUS-Analyzer</Data></Cell>
+    <Cell><Data ss:Type="String">https://github.com/amund7/CANBUS-Analyzer</Data></Cell>
+    <Cell><Data ss:Type="String">CANbus data analyzer suite, supports many log formats + DBC</Data></Cell>
+    <Cell><Data ss:Type="String">amund7</Data></Cell>
+    <Cell><Data ss:Type="String">https://github.com/amund7</Data></Cell>
+    <Cell><Data ss:Type="Number">253</Data></Cell>
+    <Cell><Data ss:Type="String">C#</Data></Cell>
+    <Cell><Data ss:Type="String">2017-12-05</Data></Cell>
+    <Cell><Data ss:Type="String">2024-07-05T11:07:55Z</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">CANToolz/CANToolz</Data></Cell>
+    <Cell><Data ss:Type="String">https://github.com/CANToolz/CANToolz</Data></Cell>
+    <Cell><Data ss:Type="String">Black-box CAN network analysis framework</Data></Cell>
+    <Cell><Data ss:Type="String">CANToolz</Data></Cell>
+    <Cell><Data ss:Type="String">https://github.com/CANToolz</Data></Cell>
+    <Cell><Data ss:Type="Number">301</Data></Cell>
+    <Cell><Data ss:Type="String">Python</Data></Cell>
+    <Cell><Data ss:Type="String">2017-08-07</Data></Cell>
+    <Cell><Data ss:Type="String">2023-05-07T13:18:09Z</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">iDoka/awesome-automotive-can-id</Data></Cell>
+    <Cell><Data ss:Type="String">https://github.com/iDoka/awesome-automotive-can-id</Data></Cell>
+    <Cell><Data ss:Type="String">Collection of CAN IDs and payloads for various car brands/models</Data></Cell>
+    <Cell><Data ss:Type="String">iDoka</Data></Cell>
+    <Cell><Data ss:Type="String">https://github.com/iDoka</Data></Cell>
+    <Cell><Data ss:Type="Number">946</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">2020-12-01</Data></Cell>
+    <Cell><Data ss:Type="String">2026-01-27T12:21:28Z</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">CaringCaribou/caringcaribou</Data></Cell>
+    <Cell><Data ss:Type="String">https://github.com/CaringCaribou/caringcaribou</Data></Cell>
+    <Cell><Data ss:Type="String">A friendly car security exploration tool for the CAN bus</Data></Cell>
+    <Cell><Data ss:Type="String">CaringCaribou</Data></Cell>
+    <Cell><Data ss:Type="String">https://github.com/CaringCaribou</Data></Cell>
+    <Cell><Data ss:Type="Number">918</Data></Cell>
+    <Cell><Data ss:Type="String">Python</Data></Cell>
+    <Cell><Data ss:Type="String">2015-03-31</Data></Cell>
+    <Cell><Data ss:Type="String">2026-06-12T23:35:05Z</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">CANBus-Triple/CANBus-Triple</Data></Cell>
+    <Cell><Data ss:Type="String">https://github.com/CANBus-Triple/CANBus-Triple</Data></Cell>
+    <Cell><Data ss:Type="String">The car hacking platform (firmware & tools)</Data></Cell>
+    <Cell><Data ss:Type="String">CANBus-Triple</Data></Cell>
+    <Cell><Data ss:Type="String">https://github.com/CANBus-Triple</Data></Cell>
+    <Cell><Data ss:Type="Number">355</Data></Cell>
+    <Cell><Data ss:Type="String">C</Data></Cell>
+    <Cell><Data ss:Type="String">2013-07-17</Data></Cell>
+    <Cell><Data ss:Type="String">2019-11-11T12:11:52Z</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">shipcod3/canTot</Data></Cell>
+    <Cell><Data ss:Type="String">https://github.com/shipcod3/canTot</Data></Cell>
+    <Cell><Data ss:Type="String">quick and dirty canbus h4xing framework</Data></Cell>
+    <Cell><Data ss:Type="String">shipcod3</Data></Cell>
+    <Cell><Data ss:Type="String">https://github.com/shipcod3</Data></Cell>
+    <Cell><Data ss:Type="Number">150</Data></Cell>
+    <Cell><Data ss:Type="String">Python</Data></Cell>
+    <Cell><Data ss:Type="String">2022-07-15</Data></Cell>
+    <Cell><Data ss:Type="String">2024-10-15T14:54:26Z</Data></Cell>
+   </Row>
+  </Table>
+ </Worksheet>
+
+ <Worksheet ss:Name="UDS / Diagnostics & DTC">
+  <Table>
+   <Row>
+    <Cell ss:StyleID="sHeader"><Data ss:Type="String">full_name</Data></Cell>
+    <Cell ss:StyleID="sHeader"><Data ss:Type="String">html_url</Data></Cell>
+    <Cell ss:StyleID="sHeader"><Data ss:Type="String">description</Data></Cell>
+    <Cell ss:StyleID="sHeader"><Data ss:Type="String">owner</Data></Cell>
+    <Cell ss:StyleID="sHeader"><Data ss:Type="String">owner_url</Data></Cell>
+    <Cell ss:StyleID="sHeader"><Data ss:Type="String">stargazers_count</Data></Cell>
+    <Cell ss:StyleID="sHeader"><Data ss:Type="String">language</Data></Cell>
+    <Cell ss:StyleID="sHeader"><Data ss:Type="String">created_at</Data></Cell>
+    <Cell ss:StyleID="sHeader"><Data ss:Type="String">pushed_at</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">rnd-ash/OpenVehicleDiag</Data></Cell>
+    <Cell><Data ss:Type="String">https://github.com/rnd-ash/OpenVehicleDiag</Data></Cell>
+    <Cell><Data ss:Type="String">Rust based cross-platform ECU diagnostics and car hacking application</Data></Cell>
+    <Cell><Data ss:Type="String">rnd-ash</Data></Cell>
+    <Cell><Data ss:Type="String">https://github.com/rnd-ash</Data></Cell>
+    <Cell><Data ss:Type="Number">976</Data></Cell>
+    <Cell><Data ss:Type="String">Rust</Data></Cell>
+    <Cell><Data ss:Type="String">2020-10-06</Data></Cell>
+    <Cell><Data ss:Type="String">2025-07-25T16:43:34Z</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">openxc/uds-c</Data></Cell>
+    <Cell><Data ss:Type="String">https://github.com/openxc/uds-c</Data></Cell>
+    <Cell><Data ss:Type="String">UDS and OBD-II C Library</Data></Cell>
+    <Cell><Data ss:Type="String">openxc</Data></Cell>
+    <Cell><Data ss:Type="String">https://github.com/openxc</Data></Cell>
+    <Cell><Data ss:Type="Number">817</Data></Cell>
+    <Cell><Data ss:Type="String">C</Data></Cell>
+    <Cell><Data ss:Type="String">2013-12-30</Data></Cell>
+    <Cell><Data ss:Type="String">2021-08-16T20:03:43Z</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">zombieCraig/uds-server</Data></Cell>
+    <Cell><Data ss:Type="String">https://github.com/zombieCraig/uds-server</Data></Cell>
+    <Cell><Data ss:Type="String">CAN UDS Simulator and Fuzzer</Data></Cell>
+    <Cell><Data ss:Type="String">zombieCraig</Data></Cell>
+    <Cell><Data ss:Type="String">https://github.com/zombieCraig</Data></Cell>
+    <Cell><Data ss:Type="Number">351</Data></Cell>
+    <Cell><Data ss:Type="String">C</Data></Cell>
+    <Cell><Data ss:Type="String">2015-09-26</Data></Cell>
+    <Cell><Data ss:Type="String">2025-10-08T14:53:49Z</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">devcoons/iso15765-canbus</Data></Cell>
+    <Cell><Data ss:Type="String">https://github.com/devcoons/iso15765-canbus</Data></Cell>
+    <Cell><Data ss:Type="String">Implementation of ISO15765-2 in C</Data></Cell>
+    <Cell><Data ss:Type="String">devcoons</Data></Cell>
+    <Cell><Data ss:Type="String">https://github.com/devcoons</Data></Cell>
+    <Cell><Data ss:Type="Number">192</Data></Cell>
+    <Cell><Data ss:Type="String">C</Data></Cell>
+    <Cell><Data ss:Type="String">2020-07-05</Data></Cell>
+    <Cell><Data ss:Type="String">2024-12-11T08:47:53Z</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Barracuda09/PyPSADiag</Data></Cell>
+    <Cell><Data ss:Type="String">https://github.com/Barracuda09/PyPSADiag</Data></Cell>
+    <Cell><Data ss:Type="String">Python app for sending diagnostic frames over CAN to PSA/Stellantis</Data></Cell>
+    <Cell><Data ss:Type="String">Barracuda09</Data></Cell>
+    <Cell><Data ss:Type="String">https://github.com/Barracuda09</Data></Cell>
+    <Cell><Data ss:Type="Number">86</Data></Cell>
+    <Cell><Data ss:Type="String">Python</Data></Cell>
+    <Cell><Data ss:Type="String">2024-10-10</Data></Cell>
+    <Cell><Data ss:Type="String">2026-06-12T07:43:56Z</Data></Cell>
+   </Row>
+  </Table>
+ </Worksheet>
+
+ <Worksheet ss:Name="Hardware / Firmware & Bridges">
+  <Table>
+   <Row>
+    <Cell ss:StyleID="sHeader"><Data ss:Type="String">full_name</Data></Cell>
+    <Cell ss:StyleID="sHeader"><Data ss:Type="String">html_url</Data></Cell>
+    <Cell ss:StyleID="sHeader"><Data ss:Type="String">description</Data></Cell>
+    <Cell ss:StyleID="sHeader"><Data ss:Type="String">owner</Data></Cell>
+    <Cell ss:StyleID="sHeader"><Data ss:Type="String">owner_url</Data></Cell>
+    <Cell ss:StyleID="sHeader"><Data ss:Type="String">stargazers_count</Data></Cell>
+    <Cell ss:StyleID="sHeader"><Data ss:Type="String">language</Data></Cell>
+    <Cell ss:StyleID="sHeader"><Data ss:Type="String">created_at</Data></Cell>
+    <Cell ss:StyleID="sHeader"><Data ss:Type="String">pushed_at</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Seeed-Studio/Seeed_Arduino_CAN</Data></Cell>
+    <Cell><Data ss:Type="String">https://github.com/Seeed-Studio/Seeed_Arduino_CAN</Data></Cell>
+    <Cell><Data ss:Type="String">Seeed Arduino CAN-BUS library - MCP2518FD & MCP2515 & MCP2551</Data></Cell>
+    <Cell><Data ss:Type="String">Seeed-Studio</Data></Cell>
+    <Cell><Data ss:Type="String">https://github.com/Seeed-Studio</Data></Cell>
+    <Cell><Data ss:Type="Number">918</Data></Cell>
+    <Cell><Data ss:Type="String">C++</Data></Cell>
+    <Cell><Data ss:Type="String">2014-01-02</Data></Cell>
+    <Cell><Data ss:Type="String">2026-05-26T03:32:41Z</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">KevinOConnor/can2040</Data></Cell>
+    <Cell><Data ss:Type="String">https://github.com/KevinOConnor/can2040</Data></Cell>
+    <Cell><Data ss:Type="String">Software CAN bus implementation for rp2040 micro-controllers</Data></Cell>
+    <Cell><Data ss:Type="String">KevinOConnor</Data></Cell>
+    <Cell><Data ss:Type="String">https://github.com/KevinOConnor</Data></Cell>
+    <Cell><Data ss:Type="Number">850</Data></Cell>
+    <Cell><Data ss:Type="String">C</Data></Cell>
+    <Cell><Data ss:Type="String">2022-06-02</Data></Cell>
+    <Cell><Data ss:Type="String">2026-03-29T15:35:42Z</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">collin80/ESP32RET</Data></Cell>
+    <Cell><Data ss:Type="String">https://github.com/collin80/ESP32RET</Data></Cell>
+    <Cell><Data ss:Type="String">CAN Reverse engineering tool for ESP32 based boards</Data></Cell>
+    <Cell><Data ss:Type="String">collin80</Data></Cell>
+    <Cell><Data ss:Type="String">https://github.com/collin80</Data></Cell>
+    <Cell><Data ss:Type="Number">386</Data></Cell>
+    <Cell><Data ss:Type="String">C++</Data></Cell>
+    <Cell><Data ss:Type="String">2018-03-27</Data></Cell>
+    <Cell><Data ss:Type="String">2026-01-15T02:51:55Z</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">dedalqq/esp32-mcp2515</Data></Cell>
+    <Cell><Data ss:Type="String">https://github.com/dedalqq/esp32-mcp2515</Data></Cell>
+    <Cell><Data ss:Type="String">MCP2515 CAN interface library for esp32/esp8266</Data></Cell>
+    <Cell><Data ss:Type="String">dedalqq</Data></Cell>
+    <Cell><Data ss:Type="String">https://github.com/dedalqq</Data></Cell>
+    <Cell><Data ss:Type="Number">73</Data></Cell>
+    <Cell><Data ss:Type="String">C++</Data></Cell>
+    <Cell><Data ss:Type="String">2021-04-01</Data></Cell>
+    <Cell><Data ss:Type="String">2021-04-01T22:27:00Z</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">nopnop2002/esp-idf-can2http</Data></Cell>
+    <Cell><Data ss:Type="String">https://github.com/nopnop2002/esp-idf-can2http</Data></Cell>
+    <Cell><Data ss:Type="String">CANbus to http bridge using esp32</Data></Cell>
+    <Cell><Data ss:Type="String">nopnop2002</Data></Cell>
+    <Cell><Data ss:Type="String">https://github.com/nopnop2002</Data></Cell>
+    <Cell><Data ss:Type="Number">48</Data></Cell>
+    <Cell><Data ss:Type="String">C</Data></Cell>
+    <Cell><Data ss:Type="String">2021-06-29</Data></Cell>
+    <Cell><Data ss:Type="String">2026-06-08T23:37:52Z</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">nopnop2002/esp-idf-can2mqtt</Data></Cell>
+    <Cell><Data ss:Type="String">https://github.com/nopnop2002/esp-idf-can2mqtt</Data></Cell>
+    <Cell><Data ss:Type="String">CANbus to mqtt bridge using esp32</Data></Cell>
+    <Cell><Data ss:Type="String">nopnop2002</Data></Cell>
+    <Cell><Data ss:Type="String">https://github.com/nopnop2002</Data></Cell>
+    <Cell><Data ss:Type="Number">51</Data></Cell>
+    <Cell><Data ss:Type="String">C</Data></Cell>
+    <Cell><Data ss:Type="String">2021-06-27</Data></Cell>
+    <Cell><Data ss:Type="String">2026-06-08T23:42:30Z</Data></Cell>
+   </Row>
+  </Table>
+ </Worksheet>
+
+ <Worksheet ss:Name="ECU flashing / BIN & tuning">
+  <Table>
+   <Row>
+    <Cell ss:StyleID="sHeader"><Data ss:Type="String">full_name</Data></Cell>
+    <Cell ss:StyleID="sHeader"><Data ss:Type="String">html_url</Data></Cell>
+    <Cell ss:StyleID="sHeader"><Data ss:Type="String">description</Data></Cell>
+    <Cell ss:StyleID="sHeader"><Data ss:Type="String">owner</Data></Cell>
+    <Cell ss:StyleID="sHeader"><Data ss:Type="String">owner_url</Data></Cell>
+    <Cell ss:StyleID="sHeader"><Data ss:Type="String">stargazers_count</Data></Cell>
+    <Cell ss:StyleID="sHeader"><Data ss:Type="String">language</Data></Cell>
+    <Cell ss:StyleID="sHeader"><Data ss:Type="String">created_at</Data></Cell>
+    <Cell ss:StyleID="sHeader"><Data ss:Type="String">pushed_at</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ecubus/EcuBus-Pro</Data></Cell>
+    <Cell><Data ss:Type="String">https://github.com/ecubus/EcuBus-Pro</Data></Cell>
+    <Cell><Data ss:Type="String">Automotive ECU development tool (UDS, CAN-TP, DOIP, LIN, HIL)</Data></Cell>
+    <Cell><Data ss:Type="String">ecubus</Data></Cell>
+    <Cell><Data ss:Type="String">https://github.com/ecubus</Data></Cell>
+    <Cell><Data ss:Type="Number">801</Data></Cell>
+    <Cell><Data ss:Type="String">C++</Data></Cell>
+    <Cell><Data ss:Type="String">2020-02-10</Data></Cell>
+    <Cell><Data ss:Type="String">2026-06-14T13:49:53Z</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">adamtheone/canDrive</Data></Cell>
+    <Cell><Data ss:Type="String">https://github.com/adamtheone/canDrive</Data></Cell>
+    <Cell><Data ss:Type="String">Tools for hacking your car</Data></Cell>
+    <Cell><Data ss:Type="String">adamtheone</Data></Cell>
+    <Cell><Data ss:Type="String">https://github.com/adamtheone</Data></Cell>
+    <Cell><Data ss:Type="Number">668</Data></Cell>
+    <Cell><Data ss:Type="String">C</Data></Cell>
+    <Cell><Data ss:Type="String">2020-10-13</Data></Cell>
+    <Cell><Data ss:Type="String">2023-05-27T15:45:54Z</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">nberlette/canbus</Data></Cell>
+    <Cell><Data ss:Type="String">https://github.com/nberlette/canbus</Data></Cell>
+    <Cell><Data ss:Type="String">Controller Area Network reference, wiki, and DBC files</Data></Cell>
+    <Cell><Data ss:Type="String">nberlette</Data></Cell>
+    <Cell><Data ss:Type="String">https://github.com/nberlette</Data></Cell>
+    <Cell><Data ss:Type="Number">155</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">2021-06-03</Data></Cell>
+    <Cell><Data ss:Type="String">2025-07-22T09:49:52Z</Data></Cell>
+   </Row>
+  </Table>
+ </Worksheet>
+
+ <Worksheet ss:Name="AI / ML in diagnostics">
+  <Table>
+   <Row>
+    <Cell ss:StyleID="sHeader"><Data ss:Type="String">full_name</Data></Cell>
+    <Cell ss:StyleID="sHeader"><Data ss:Type="String">html_url</Data></Cell>
+    <Cell ss:StyleID="sHeader"><Data ss:Type="String">description</Data></Cell>
+    <Cell ss:StyleID="sHeader"><Data ss:Type="String">owner</Data></Cell>
+    <Cell ss:StyleID="sHeader"><Data ss:Type="String">owner_url</Data></Cell>
+    <Cell ss:StyleID="sHeader"><Data ss:Type="String">stargazers_count</Data></Cell>
+    <Cell ss:StyleID="sHeader"><Data ss:Type="String">language</Data></Cell>
+    <Cell ss:StyleID="sHeader"><Data ss:Type="String">created_at</Data></Cell>
+    <Cell ss:StyleID="sHeader"><Data ss:Type="String">pushed_at</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Sherin-SEF-AI/CanLab</Data></Cell>
+    <Cell><Data ss:Type="String">https://github.com/Sherin-SEF-AI/CanLab</Data></Cell>
+    <Cell><Data ss:Type="String">CanLab — AI-Powered CAN Bus Reverse Engineering Workstation</Data></Cell>
+    <Cell><Data ss:Type="String">Sherin-SEF-AI</Data></Cell>
+    <Cell><Data ss:Type="String">https://github.com/Sherin-SEF-AI</Data></Cell>
+    <Cell><Data ss:Type="Number">66</Data></Cell>
+    <Cell><Data ss:Type="String">Python</Data></Cell>
+    <Cell><Data ss:Type="String">2026-04-27</Data></Cell>
+    <Cell><Data ss:Type="String">2026-05-20T11:53:50Z</Data></Cell>
+   </Row>
+  </Table>
+ </Worksheet>
+
+ <Worksheet ss:Name="Resources & datasets">
+  <Table>
+   <Row>
+    <Cell ss:StyleID="sHeader"><Data ss:Type="String">full_name</Data></Cell>
+    <Cell ss:StyleID="sHeader"><Data ss:Type="String">html_url</Data></Cell>
+    <Cell ss:StyleID="sHeader"><Data ss:Type="String">description</Data></Cell>
+    <Cell ss:StyleID="sHeader"><Data ss:Type="String">owner</Data></Cell>
+    <Cell ss:StyleID="sHeader"><Data ss:Type="String">owner_url</Data></Cell>
+    <Cell ss:StyleID="sHeader"><Data ss:Type="String">stargazers_count</Data></Cell>
+    <Cell ss:StyleID="sHeader"><Data ss:Type="String">language</Data></Cell>
+    <Cell ss:StyleID="sHeader"><Data ss:Type="String">created_at</Data></Cell>
+    <Cell ss:StyleID="sHeader"><Data ss:Type="String">pushed_at</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">iDoka/awesome-canbus</Data></Cell>
+    <Cell><Data ss:Type="String">https://github.com/iDoka/awesome-canbus</Data></Cell>
+    <Cell><Data ss:Type="String">Awesome CAN bus tools, hardware and resources</Data></Cell>
+    <Cell><Data ss:Type="String">iDoka</Data></Cell>
+    <Cell><Data ss:Type="String">https://github.com/iDoka</Data></Cell>
+    <Cell><Data ss:Type="Number">3271</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">2020-11-16</Data></Cell>
+    <Cell><Data ss:Type="String">2026-06-10T09:50:37Z</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">iDoka/awesome-automotive-can-id</Data></Cell>
+    <Cell><Data ss:Type="String">https://github.com/iDoka/awesome-automotive-can-id</Data></Cell>
+    <Cell><Data ss:Type="String">Collection of CAN IDs and its payloads for various car brands/models</Data></Cell>
+    <Cell><Data ss:Type="String">iDoka</Data></Cell>
+    <Cell><Data ss:Type="String">https://github.com/iDoka</Data></Cell>
+    <Cell><Data ss:Type="Number">946</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">2020-12-01</Data></Cell>
+    <Cell><Data ss:Type="String">2026-01-27T12:21:28Z</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">nberlette/canbus</Data></Cell>
+    <Cell><Data ss:Type="String">https://github.com/nberlette/canbus</Data></Cell>
+    <Cell><Data ss:Type="String">Controller Area Network (CAN) reference, wiki, and DBC files.</Data></Cell>
+    <Cell><Data ss:Type="String">nberlette</Data></Cell>
+    <Cell><Data ss:Type="String">https://github.com/nberlette</Data></Cell>
+    <Cell><Data ss:Type="Number">155</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">2021-06-03</Data></Cell>
+    <Cell><Data ss:Type="String">2025-07-22T09:49:52Z</Data></Cell>
+   </Row>
+  </Table>
+ </Worksheet>
+
+</Workbook>
