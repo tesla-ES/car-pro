@@ -1,0 +1,4 @@
+full_name,html_url,description,owner,owner_url,stargazers_count,language,created_at,pushed_at,license,topics,open_issues_count
+commaai/opendbc,https://github.com/commaai/opendbc,"open DBC files / car signal definitions",commaai,https://github.com/commaai,3200,Python,2017-05-31,2026-06-13T09:10:24Z,MIT,"automotive;can;dbc",319
+christoph2/pydbc,https://github.com/christoph2/pydbc,"Process vehicle network descriptions (.dbc)",christoph2,https://github.com/christoph2,39,Python,2018-07-09,2026-05-20T01:33:08Z,GPL-2.0,automotive;can-bus,
+HongleiHuang-amd/dbc2excel,https://github.com/HongleiHuang-amd/dbc2excel,"A CAN bus DBC to Excel converter tool with GUI.",HongleiHuang-amd,https://github.com/HongleiHuang-amd,143,Python,2018-05-24,2025-11-13T05:04:24Z,,dbc;converter,

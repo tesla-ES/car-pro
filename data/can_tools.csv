@@ -1,0 +1,6 @@
+full_name,html_url,description,owner,owner_url,stargazers_count,language,created_at,pushed_at,license,topics,open_issues_count
+iDoka/awesome-canbus,https://github.com/iDoka/awesome-canbus,"Awesome CAN bus tools, hardware and resources",iDoka,https://github.com/iDoka,3271,,2020-11-16,2026-06-10T09:50:37Z,CC0-1.0,automotive;can-bus,
+hardbyte/python-can,https://github.com/hardbyte/python-can,"The can package provides controller area network support for Python developers",hardbyte,https://github.com/hardbyte,1562,Python,2016-09-24,2026-06-06T10:53:53Z,LGPL-3.0,can-bus,
+amund7/CANBUS-Analyzer,https://github.com/amund7/CANBUS-Analyzer,"CANbus data analyzer suite, supports many log formats + DBC",amund7,https://github.com/amund7,253,C#,2017-12-05,2024-07-05T11:07:55Z,,analyzer;dbc,
+CANToolz/CANToolz,https://github.com/CANToolz/CANToolz,"Black-box CAN network analysis framework",CANToolz,https://github.com/CANToolz,301,Python,2017-08-07,2023-05-07T13:18:09Z,,can;analysis,
+shipcod3/canTot,https://github.com/shipcod3/canTot,"quick and dirty canbus h4xing framework",shipcod3,https://github.com/shipcod3,150,Python,2022-07-15,2024-10-15T14:54:26Z,,car-hacking,
